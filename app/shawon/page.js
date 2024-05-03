@@ -1,9 +1,14 @@
 import React from "react";
+import Hello from "../components/hi";
+
+export const metadata = {
+  title: "Static data - know and share",
+};
 
 function page() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1>Hello</h1>
+    <div>
+      <Hello />
     </div>
   );
 }
